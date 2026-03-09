@@ -10,7 +10,7 @@ const movie = {
 //Creating a type from a existing object
 type MovieDetails = typeof movie;
 const otherMovie: MovieDetails = {
-    title: 'apurbo',
+    title: 'Avater',
     director: 'christorper nolan'
 };
 type detailedLog = {
